@@ -1,0 +1,375 @@
+html,body{
+    margin: 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    color: #fff;
+    background-color: black;
+    font-size: 16px;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+/*---------------------HEADER---------------------------*/
+
+header{
+    /*background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.1)),to(rgba(0, 0, 0, 0.99))) , url('../img/cover-photo.jpg');*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, -1)), color-stop(65%, #000)),url('../img/cover-photo.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, -1), #000 65%),url('../img/cover-photo.jpg');
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+nav img{
+    width: 164px;
+    height: 94px;
+    
+}
+
+nav a.logo{
+    display: inline-block;
+    margin-left: 3%;
+}
+
+header nav{
+    height: 90px;
+}
+
+nav .signin{
+    color: #fff;
+    float: right;
+    background-color: #e50914;
+    line-height: normal;
+    margin-top: 29px;
+    margin-right: 50px;
+    padding: 8px 18px;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.pitch{
+    margin-top: 134px;
+    text-align: center;
+    top: 35%;
+    font-size: 2vw;
+}
+
+
+.pitch-title{
+    font-size: 3em;
+    margin: 0 0 0;
+    font-weight: 700;
+    color: #fff;
+}
+
+.pitch-subtitle{
+    font-size: 3em;
+    margin: 0 0 0.2em;
+    font-weight: 700;
+    background-color: #ff7a00;
+    
+    background: -webkit-linear-gradient(32deg,rgba(255,122,0,0) 0,#ff7a00 50%,#e5337f 68%,#7000ff 85%),
+        linear-gradient(140deg,rgba(255,122,0,0) 0,#ff7a00 30%,#e5337f 38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.info-email{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+input[type=submit]{
+    border: 0;
+    outline: none;
+    margin-left: -5px;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 400;
+    font-size: 17px;
+    height: 58px;
+    width: 16%;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+  width: 35%;
+  height: 60px;
+  padding: 10px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h3{
+    margin: 10px;
+    word-spacing: 1px;
+    font-weight: 100
+}
+
+.border{
+    border-top: .5rem solid #222;
+     padding-bottom: 50px;
+}
+.story{
+    
+   
+}
+
+div{
+    margin: 0px 56px;
+}
+
+.story img{
+    width:90%;
+    height: auto;
+    float: right;
+    position: relative;
+}
+
+
+h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    margin: 130px 0px 0 0px;
+}
+
+
+h2{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.story-video{ 
+    width: 30%;
+    height: auto;
+    position: absolute;
+    left: 60%;
+    top: 115%;
+    overflow: hidden;
+}
+
+.mobile{
+    position: relative;
+}
+
+.mobile img{
+    width:100%;
+}
+
+.mobile-title{
+    top:210%;
+    position: absolute;
+    left: 15%;
+    margin: 0 auto;
+    background: #000;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.8em .65em;
+    border: 2px solid rgba(255,255,255,.25);
+    -webkit-box-shadow: 0 0 2em 0 #000;
+    box-shadow: 0 0 2em 0 #000;
+    border-radius: .75em;
+    height: 100px;
+    width: 23.5%;
+}
+
+.mobile-subtitle{
+    position: absolute;
+       margin:  15px 0 0 72px;
+    
+}
+
+.box-img{
+       margin: -9px 0 0 0;
+    float: left;
+    width: 41%;
+}
+.box-img img{
+    width:50%;
+    margin: 0;
+}
+.icon{
+       
+    margin: 3px -35px 0 0;
+    float: right;
+}
+.icon img{
+    
+    width: 60%;
+    padding: 0;
+}
+
+
+#A{
+    margin:0;
+}
+
+#B{
+        margin: 0;
+    color: #2626d0;
+}
+
+.story-title{
+    margin: 0;
+    margin-right: 30px;
+}
+
+
+#third{
+    padding-top: 35px;
+}
+
+
+.story-video-1{ 
+    width: 24%;
+    height: auto;
+    position: absolute;
+    left: 61%;
+    top: 242%;
+    overflow: hidden;
+
+}
+
+/*------------------FAQ---------------------*/
+
+.faq{
+    text-align: center;
+}
+
+.accordion {   
+    background-color: #303030;
+    color: #fff;
+    cursor: pointer;
+    height: 75px;
+    width: 72%;
+    border: none;
+    text-align: left;
+    outline: none;
+    
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+
+
+.accordion:after {
+  content: '\002B';
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+font-size: 30px;
+}
+
+.active:after {
+  content: "\00D7";
+
+}
+
+.panel{
+    
+    width: 72%;
+    text-align: left;
+    color:#ccc;
+    padding: 0 25px;
+    background-color: #303030;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.2s ease-out;
+    transition: max-height 0.2s ease-out;
+    margin-left: 14%;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+#fourth{
+   margin: 50px;
+}
+
+.faq-list{
+    font-weight: 400;
+    font-size: 10px;
+}
+
+button{
+    font-size: 25px;
+    padding: 0.8em 1.2em 0.8em 1.2em;
+    margin-bottom: 1px;
+    font-weight: 400;
+    position: relative;
+}
+
+.panel p{
+    font-size: 23px;
+    color: #fff;
+}
+
+footer p{
+   font-size: 15px; 
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+footer{
+       border-top: .5rem solid #222;
+     padding-bottom: 0px;
+}
+
+.footer-section{
+  margin: 63px 0 0 244px;
+    color: #757575;
+}
+
+footer > p{
+    margin: 0 0 30px;
+    
+}
+
+
+footer a{
+    text-decoration: none;
+    color: #757575;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer ul{
+    margin: 0;
+    padding: 0;
+    display: block;
+    color: #757575;
+}
+
+footer ul li{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 12px;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 20%;
+    font-size: 13px;
+    vertical-align: top;
+    list-style: none;
+}
+
+.list-item{
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
